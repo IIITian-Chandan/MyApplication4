@@ -1,0 +1,201 @@
+<resources>
+    <string name="app_name">Serve 360</string>
+
+    <string name="button1">Part I</string>
+    <string name="button2">Part II</string>
+    <string name="button3">Part III</string>
+
+    <string name="form_links">Form Navigator</string>
+    <string name="form_nav_btn1">Installation Forms</string>
+    <string name="form_nav_btn2">Pre Commission Card</string>
+    <string name="form_nav_btn3">Field Service Report Card</string>
+    <string name="form_nav_btn4">Maintenance Card Schedule 1</string>
+    <string name="form_nav_btn5">Operator Training List</string>
+    <string name="form_nav_btn6">Six Days Report Card</string>
+
+
+    <string name="title2">Installation Form - Part III</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="q1">1. Conveyor is running smoothly without any noise</string>
+    <string name="q2">2. Start the vibrator and check cashews are moving evenly</string>
+    <string name="q3">3. Start reverse roller and check they are rotating without vibration</string>
+    <string name="q4">4. Start split remover controller and check if the cashews are moving</string>
+    <string name="q5">5. Check the vaccum drum Pick and Drop</string>
+    <string name="q6">6. Feed 75 kgs. cashews</string>
+    <string name="q7">7. Note down the Timings</string>
+    <string name="q8">8. Take the count in each bin and write it</string>
+    <string name="q9a">9a. Write Ende bin(M.G) Cashews in kgs.</string>
+    <string name="q9b">9b. Manual Grade %(Percentage)</string>
+    <string name="q10">10. Collect Cashew samples for analysis from each bin(50gms)</string>
+    <string name="feedback">Customer Feedback: </string>
+    <string name="feedback_hint">Let the Customer fill this part</string>
+    <string name="start">a. Start Time </string>
+    <string name="end">b. End Time</string>
+    <string name="time">Enter here</string>
+    <string name="count_filler">Write Counts below</string>
+    <string name="Bbincount">a. B-bin count</string>
+    <string name="Cbincount">b. C-bin count</string>
+    <string name="Dbincount">c. D-bin count</string>
+    <string name="Ebincount">d. E-bin count</string>
+    <string name="count">Enter here</string>
+    <string name="instr">Please select the respective checkbox to enter the values in the respective fields.</string>
+    <string name="hint">Enter here</string>
+
+    <string name="title1">Installation Form - Part II</string>
+    <string name="note">The following form contains the information about electric and electronic parts of the machine.
+    Please fill the valid information.</string>
+    <string name="parttype1">A.Electric Parts: </string>
+    <string name="parttype2">B. Electronic Parts: </string>
+    <string name="part1_1">1. Vaccum Pump</string>
+    <string name="part1_2">2. Conveyor Motor</string>
+    <string name="part1_3">3. Reverse Roller Motor</string>
+    <string name="serial_no">Enter Serial Number</string>
+    <string name="part2_1">1. Camera nPx1</string>
+    <string name="part2_2">2. Camera nPx2</string>
+    <string name="part2_3">3. Vibrator Controller</string>
+    <string name="part2_4">4. Split Remover Controller</string>
+
+
+    <string name="Title_1">Installation Form </string>
+    <string name="Machine_type">1. Machine Type</string>
+    <string name="Region">2. Region</string>
+    <string name="Cust_name">3. Customer Name</string>
+    <string name="DOI">4. Date of Installation</string>
+    <string name="Comp_name">5. Company Name</string>
+    <string name="Signoff_DOI">6. Installation Sign Date</string>
+    <string name="Cont_person">7. Contact Person Name</string>
+    <string name="Cont_number">8. Contact Person Number</string>
+    <string name="Address">9. Address</string>
+    <string name="Staff">10. Installation Staff Members</string>
+    <string name="staff_1">Person 1</string>
+    <string name="staff_2">Person 2</string>
+    <string name="staff_3">Person 3</string>
+    <string-array name="machine_Select">
+        <item>Select</item>
+        <item>Hamsa I</item>
+        <item>Hamsa II</item>
+        <item>Hamsa III</item>
+        <item>Hamsa IV</item>
+    </string-array>
+    <string name="ebutt_val">Validate</string>
+    <string name="Calender">Calender</string>
+    <string name="Machine_prompt">Choose Machine Type</string>
+
+
+    <string name="Pre_Title_2">Pre-Commission Card</string>
+
+    <string name="pre1">4. Date of Inspection </string>
+    <string name="pre2">10. Customer E-mail Id </string>
+    <string name="pre3">11. Inspection Staff Name</string>
+
+    <string name="pre4"> Approval of Layout :</string>
+    <string name="pre5">Customer Name </string>
+    <string name="pre6">Sale Reference </string>
+    <string name="pre7"> Checklist for nanoSorter Hamasa reachable to installation site. If this all checked, only then naoSorter will shipped. Or else, these need to corrected before shipping.</string>
+    <string name="pre8">1. Is approach road suitable for transport vehicle carrying nanoSorter Hamsa can reach. </string>
+    <string name="pre8_1">Yes</string>
+    <string name="pre8_2">No</string>
+    <string name="pre8_3">To be Corrected</string>
+    <string name="pre9">2. Is sufficient place is there to unload Hamsa. </string>
+    <string name="pre9_1">Yes</string>
+    <string name="pre9_2">No</string>
+    <string name="pre9_3">To be Corrected</string>
+    <string name="pre10">3. Is nanoSorter Hamasa layout drawing given to Customer.</string>
+    <string name="pre10_1">Yes</string>
+    <string name="pre10_2">No</string>
+    <string name="pre10_3">To be Corrected</string>
+    <string name="pre11">4. Has layout drawing been explained to Customer.</string>
+    <string name="pre11_1">Yes</string>
+    <string name="pre11_2">No</string>
+    <string name="pre11_3">To be Corrected</string>
+    <string name="pre12">5. Is the route of moving the machine from Entrance to the location of installation inspected.</string>
+    <string name="pre12_1">Yes</string>
+    <string name="pre12_2">No</string>
+    <string name="pre12_3">To be Corrected</string>
+    <string name="pre13">6. Is all doorways clearing for the height and width of nanoSorter Hamasa.</string>
+    <string name="pre13_1">Yes</string>
+    <string name="pre13_2">No</string>
+    <string name="pre13_3">To be Corrected</string>
+    <string name="pre14">7. Is installation site has suitable size as mention in the layout drawing.</string>
+    <string name="pre14_1">Yes</string>
+    <string name="pre14_2">No</string>
+    <string name="pre14_3">To be Corrected</string>
+    <string name="pre15">8.Is 3Phase, 7HP power with MCB within 5 meter from machine installation point.</string>
+    <string name="pre15_1">Yes</string>
+    <string name="pre15_2">No</string>
+    <string name="pre15_3">To be Corrected</string>
+    <string name="pre16">9. Window/ Ventilator door nearby to leave the pump out.</string>
+    <string name="pre16_1">Yes</string>
+    <string name="pre16_2">No</string>
+    <string name="pre16_3">To be Corrected</string>
+    <string name="pre17">10. Is sufficient space available for safe operation by operator and keeping collecting bins.</string>
+    <string name="pre17_1">Yes</string>
+    <string name="pre17_2">No</string>
+    <string name="pre17_3">To be Corrected</string>
+    <string name="pre18">11. Is environment dust free.</string>
+    <string name="pre18_1">Yes</string>
+    <string name="pre18_2">No</string>
+    <string name="pre18_3">To be Corrected</string>
+
+
+    <string name="qu1">1. Distance of power MCB from the Hamsa machine in Metres : </string>
+    <string name="qu2">2. Distance of air exit point from the pump location in Metres :</string>
+    <string name="qu3">3. Customer already has identified</string>
+    <string name="qu3_1">Operator</string>
+    <string name="qu3_2">Hopper Filling Method</string>
+    <string name="qu3_3">Grading Flow Plan</string>
+    <string name="qu3_4">None</string>
+    <string name="qu4">4. Is the Installation Site Photos E-mailed to : location@nanopix-iss.com</string>
+    <string name="qu4_1">Yes</string>
+    <string name="qu4_2">No</string>
+    <string name="qu5">5. Any specific observation to be noted:</string>
+    <string name="qu5_hint">Enter here</string>
+    <string name="cust_entry">To be filled by the Customer</string>
+    <string name="qu6">6. Name of the Person from Customer side approving the layout:</string>
+    <string name="qu6_hint">This is very important as he is responsible from customer side for Installation</string>
+    <string name="qu7">7. Phone number of Layout approving Person:</string>
+    <string name="qu8">8. Comments from Customer/Layout Approving Person:</string>
+    <string name="qu9">9. Expected machine commissioning at Customer site date :</string>
+    <string name="qu10">10. TIN Number :</string>
+    <string name="qu11">11. Machine Shipping Address with Pin code :</string>
+    <string name="ebutt_val1">Validate</string>
+
+    <string name="op">Operator Training List</string>
+    <string name="op1">1. Is operator learnt where is the the emergency button in nanoSoter Hamasa machine and how to use it. </string>
+    <string name="op2">2. Is operator learnt which MCB is used to operate what. </string>
+    <string name="op3">3. Is operator learnt the parameter basic definition from A to J.</string>
+    <string name="op4">Parameter A- Big Size </string>
+    <string name="op5">Parameter B- 180/210 </string>
+    <string name="op6">Parameter C- 240 </string>
+    <string name="op7">Parameter D- 320</string>
+    <string name="op8">Parameter E- Small Size</string>
+    <string name="op9">Parameter F- SW </string>
+    <string name="op10">Parameter G- Hard Defect/Bad</string>
+    <string name="op11">Parameter H- Husk</string>
+    <string name="op12">Parameter I- Color</string>
+    <string name="op13">Parameter J- Shape</string>
+    <string name="op14">4.Is operator learnt how to use the Changeover switch while Cleaning.</string>
+    <string name="op15">5.Is operator learnt how to start the machine and operate it.</string>
+    <string name="op16">6.Is operator learnt how to clean the cups</string>
+    <string name="op17">7.Is operator learnt how to set the parameter for count variation from A to E</string>
+    <string name="op18">8.Is operator learnt how to set parameter for Color variation from F to J.</string>
+    <string name="op19">9.Is operator learnt how to clean vaccum pump.</string>
+    <string name="op20">10.Is operator learnt how to programming the camera.</string>
+    <string name="op21">11.Is operator learnt what needs to check to handle the config camera error in LCD.</string>
+    <string name="op22">12.Is operator learnt how to adjust 180/210 bin count.</string>
+    <string name="op23">13.Is operator learnt how to adjust the 240 bin count.</string>
+    <string name="op24">14.Is operator learnt how to adjust the 320 bin count.</string>
+    <string name="op25">15.Is operator learnt how to adjust the 400/450 bin count.</string>
+    <string name="op26">16.Is operator learnt how to adjust the parameter to control SW/SSW cashews.</string>
+    <string name="op27">17.Is operator learnt how to adjust the parameter to control Husk cashews.</string>
+    <string name="op28">18.Is operator learnt how to adjust the parameter to control the shapeless cashews.</string>
+
+    <string-array name="quantity">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

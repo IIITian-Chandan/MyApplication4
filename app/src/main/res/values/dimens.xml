@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titlesize">24sp</dimen>
+    <dimen name="vertical_margin">16dp</dimen>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="ques_size">16sp</dimen>
+    <dimen name="left">56dp</dimen>
+    <dimen name="mar">32dp</dimen>
+    <dimen name="rmargright">32dp</dimen>
+    <dimen name="serial">14sp</dimen>
+    <dimen name="width">180dp</dimen>
+</resources>
