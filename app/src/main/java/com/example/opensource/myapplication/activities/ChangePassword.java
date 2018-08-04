@@ -13,6 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.opensource.myapplication.R;
+import com.example.opensource.myapplication.activities.Calender.CalenderActivity;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -163,7 +164,7 @@ public class ChangePassword extends Activity {
 
             }
             Toast.makeText(getApplicationContext(), s, Toast.LENGTH_LONG).show();
-            Intent intent = new Intent(ChangePassword.this, HomeActivity.class);
+            Intent intent = new Intent(ChangePassword.this, CalenderActivity.class);
             startActivity(intent);
         }
 

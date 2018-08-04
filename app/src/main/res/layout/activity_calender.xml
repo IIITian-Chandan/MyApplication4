@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient">
 
 
-    <ListView
-        android:id="@+id/SubjectFullFormListView"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_marginTop="100sp"
-        android:visibility="gone"></ListView>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleview_calender"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:visibility="gone">
 
-    <ProgressBar
+    </android.support.v7.widget.RecyclerView>
+
+    <com.wang.avi.AVLoadingIndicatorView
         android:id="@+id/ProgressBar1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:visibility="visible"
         android:layout_centerInParent="true"
-        android:visibility="visible" />
+        app:indicatorColor="#f56217"
+        app:indicatorName="BallRotateIndicator" />
 
 
 </RelativeLayout>

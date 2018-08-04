@@ -4,5 +4,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="quescolor">#000000</color>
+    <color name="acceptcolor">#009400</color>
+    <color name="rejectcolor">#ea1219</color>
+    <color name="pendingcolor">#fde211</color>
 
 </resources>

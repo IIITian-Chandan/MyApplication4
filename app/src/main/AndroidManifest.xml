@@ -58,8 +58,11 @@
         <activity android:name=".activities.home.Forms.Installation_Form" />
         <activity android:name=".activities.home.ServiceOrder.ServiceOrderActivity" />
         <activity android:name=".activities.home.ServiceOrder.CheckOutActivity" />
-        <activity android:name=".activities.home.Calender.CalenderActivity" />
-        <activity android:name=".activities.ShortestPath"></activity>
+        <activity android:name=".activities.Calender.CalenderActivity" />
+        <activity android:name=".activities.ShortestPath" />
+        <activity android:name=".activities.home.TrackMachineActivity" />
+        <activity android:name=".activities.home.DashboardActivity" />
+        <activity android:name=".activities.home.TravelTrackerActivity"></activity>
     </application>
 
 </manifest>

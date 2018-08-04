@@ -2,9 +2,7 @@ package com.example.opensource.myapplication.activities;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.RequiresApi;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
@@ -13,10 +11,11 @@ import android.widget.GridLayout;
 
 import com.example.opensource.myapplication.R;
 import com.example.opensource.myapplication.activities.home.Attendence;
-import com.example.opensource.myapplication.activities.home.Calender.CalenderActivity;
+import com.example.opensource.myapplication.activities.home.DashboardActivity;
 import com.example.opensource.myapplication.activities.home.FormActivity;
 import com.example.opensource.myapplication.activities.home.ServiceOrder.ServiceOrderActivity;
-import com.example.opensource.myapplication.activities.home.TrackMachine;
+import com.example.opensource.myapplication.activities.home.TrackMachineActivity;
+import com.example.opensource.myapplication.activities.home.TravelTrackerActivity;
 import com.github.clans.fab.FloatingActionButton;
 import com.github.clans.fab.FloatingActionMenu;
 
@@ -59,6 +58,7 @@ public class HomeActivity extends AppCompatActivity {
 
 
         mainGrid = findViewById(R.id.mainGrid);
+
         setSingleEvent(mainGrid);
     }
 
@@ -72,7 +72,7 @@ public class HomeActivity extends AppCompatActivity {
                 cardView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent intent = new Intent(HomeActivity.this, CalenderActivity.class);
+                        Intent intent = new Intent(HomeActivity.this, TravelTrackerActivity.class);
                         startActivity(intent);
                     }
                 });
@@ -81,23 +81,24 @@ public class HomeActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
 
-
+                        Intent intent = new Intent(HomeActivity.this, Attendence.class);
+                        startActivity(intent);
                     }
                 });
             } else if (i == 2) {
                 cardView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent intent = new Intent(HomeActivity.this, Attendence.class);
-                        startActivity(intent);
 
+                        Intent intent = new Intent(HomeActivity.this, FormActivity.class);
+                        startActivity(intent);
                     }
                 });
             } else if (i == 3) {
                 cardView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent intent = new Intent(HomeActivity.this, FormActivity.class);
+                        Intent intent = new Intent(HomeActivity.this, ServiceOrderActivity.class);
                         startActivity(intent);
 
                     }
@@ -106,16 +107,16 @@ public class HomeActivity extends AppCompatActivity {
                 cardView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-
-                        Intent intent = new Intent(HomeActivity.this, ServiceOrderActivity.class);
+                        Intent intent = new Intent(HomeActivity.this, TrackMachineActivity.class);
                         startActivity(intent);
+
                     }
                 });
             } else if (i == 5) {
                 cardView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent intent = new Intent(HomeActivity.this, TrackMachine.class);
+                        Intent intent = new Intent(HomeActivity.this, DashboardActivity.class);
                         startActivity(intent);
                     }
                 });
@@ -125,12 +126,6 @@ public class HomeActivity extends AppCompatActivity {
 
     private void requestPermission() {
         ActivityCompat.requestPermissions(this, new String[]{ACCESS_FINE_LOCATION, CAMERA, GET_ACCOUNTS, WRITE_EXTERNAL_STORAGE, CALL_PHONE}, PERMISSION_REQUEST_CODE);
-    }
-
-    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
-    @Override
-    public void onBackPressed() {
-        finishAffinity();
     }
 
 

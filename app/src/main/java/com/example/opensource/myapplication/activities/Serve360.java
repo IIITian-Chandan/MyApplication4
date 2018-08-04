@@ -16,6 +16,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.example.opensource.myapplication.R;
+import com.example.opensource.myapplication.activities.Calender.CalenderActivity;
 import com.example.opensource.myapplication.classes.GPSTracker;
 
 import org.json.JSONException;
@@ -205,7 +206,7 @@ public class Serve360 extends AppCompatActivity {
             if (EMPID.equals("null")) {
 
             } else {
-                Intent i = new Intent(Serve360.this, HomeActivity.class);
+                Intent i = new Intent(Serve360.this, CalenderActivity.class);
                 startActivity(i);
             }
 

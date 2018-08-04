@@ -190,6 +190,7 @@
     <string name="op26">16.Is operator learnt how to adjust the parameter to control SW/SSW cashews.</string>
     <string name="op27">17.Is operator learnt how to adjust the parameter to control Husk cashews.</string>
     <string name="op28">18.Is operator learnt how to adjust the parameter to control the shapeless cashews.</string>
+    <integer name="swing_anim_time">750</integer>
 
     <string-array name="quantity">
         <item>1</item>
@@ -197,5 +198,15 @@
         <item>3</item>
         <item>4</item>
         <item>5</item>
+    </string-array>
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
     </string-array>
 </resources>
